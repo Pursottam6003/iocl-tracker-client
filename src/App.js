@@ -31,7 +31,7 @@ function App() {
   };
 
   const handleUser = (user) => {
-    localStorage.setItem('vehicleId', user.vehicle.vehicleId);
+    localStorage.setItem('vehicleId', user.vehicleId);
     localStorage.setItem('driverName',user.driverName);
     localStorage.setItem('VehicleNo',user.vehicle.vehicleNo);
     localStorage.setItem('VehicleName',user.vehicle.vehicleName)

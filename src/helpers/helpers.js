@@ -2,8 +2,8 @@ import config from "../config/config"
 
 const checkAuth = () => fetch(`${config.API_BASE_URL}/drivers/auth`, {
   method: 'POST',
-  credentials: 'include',
   body: '',
+  credentials: 'include',
   headers: {
     'Content-type': 'application/json'
   },

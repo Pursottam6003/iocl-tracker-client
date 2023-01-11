@@ -18,9 +18,8 @@ const textFieldProps = {
 }
 
 
-export function SignIn({user, handleUser}) {
+export function SignIn({ handleUser}) {
   const history = useNavigate();
-  const [driver,setDriver] = useState(null)
 
   const handleSubmit = (event) => {
     event.preventDefault();
