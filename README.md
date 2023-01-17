@@ -1,70 +1,98 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+  <img src="public/media/iocl-logo.png">
+</p>
 
-## Available Scripts
+<div align="center">
+<p>GUWAHATI REFINERY</p>
+<p>Guwahati, Assam</p>
 
-In the project directory, you can run:
+<p>
+WINTER INTERNSHIP PROJECT ON
+</p>
 
-### `npm start`
+## “IOCL VEHICLE MANAGEMENT SYSTEM (CLIENT APPLICATION)”
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+</div>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### DEVELOPED BY
+#### Pursottam Sah & Chandrashekhar Tripathi 
+<p> 
+B. Tech. in Computer Science and Eng.
+<br>
+National Institute of Technology, Arunachal Pradesh</p>
 
-### `npm test`
+#### Shashank Kashyap Sharma
+<p> 
+Kaziranga University (Assam)</p>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+#### Miss Gangortri Bhattacharji
+<p> 
+Sikkam Manipal Institute of Technology.</p>
 
-### `npm run build`
+### UNDER THE GUIDANCE OF
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+#### Mr. Sumiron Changkakoti
+<p> 
+Senior Manager, Information System 
+<br>
+Indian Oil Corporation Limited, Guwahati </p>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+LinkedIn: [Link](https://www.linkedin.com/in/sumiron-changkakoti-7b836925/)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## &
 
-### `npm run eject`
+#### Mr. Arjun Singh Banra
+<p> 
+Assistant Manager, Information System 
+<br>
+Indian Oil Corporation Limited, Guwahati </p>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+LinkedIn: [Link](https://www.linkedin.com/in/arjun-singh-banra-68132619/)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## The Driver Application is implemented using React app as front end and for backend we had used MongoDB and Express Server. 
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Some overview of our application :
 
-## Learn More
+1. SingUp Page 
+```
+The registered driver need to install the application and logged in into the application by the username & password provided by the Transport Officer 
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+![signup](public/media/login.jpg)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<br>
+2. Dashboard 
 
-### Code Splitting
+```
+After sucessfully being logged in, the application will ask permission to allow their location. 
+```
+> Note : Without providing the correct location it wont mesure the distance travelled by the vehicle 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+![signup](public/media/dashboard.jpg)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+<br>
 
-### Making a Progressive Web App
+3. The dashboard will display the current location of vehicle as well as important information such as  vehicle registration number, driver name, vehicle name etc
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+4. Activity page 
+```
+After some trips the driver can view thier trip history how much they had travelled.
+Currently it is empty
+```
+![signup](public/media/activity.jpg)
 
-### Advanced Configuration
+5. Account 
+```
+Here the driver can log out from the existing account.
+```
+![signup](public/media/account.jpg)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Future Works
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. Geofencing 
+2. Overspeeding notification to the driver
+3. Emergency Button for help and support 
+4. Fuel Informatoin 
